@@ -1,0 +1,101 @@
+{
+	"landing": {
+		"firstName": "Damiano",
+		"lastName": "Chintala",
+		"phoneNumber": "+260962812927",
+		"bio": "I am a Full stack developer. Using Javascript frameworks and libraries for both  server side and scripting frontend. I use Meteor and Express (Nodejs) framework for the server side development and React/React-native for the frontend development. I have also worked with GraphQL. I am an active member of Facebook Developers Circle Lusaka and Forloop Zambia.",
+    "email": "damianochintala@gmail.com",
+    "linkedin": "https://linkedin.com/in/damiano-chintala",
+		"github": "https://github.com/DamianoSilverhand",
+		"twitter": "https://twitter.com/ES6Maestro"
+	},
+	"experience": [
+		{
+				"position": "Back Office Assistant/Data Entry Clerk",
+				"organization": "PUMA SUPER7",
+				"aboutWork": "Collected, recorded, and processed customer
+				 orders received from sales department ● Analyzed customer orders to identify errors and omissions, taking appropriate action to 
+				verify and retrieve critical account data ● Generated weekly customized sales reports to detail product and sales team performance .",
+				"fromDate": "June  2015",
+				"toDate": "December 2015"
+		},
+		{
+			"position": "Retail Supervisor",
+			"organization": "PUMA SUPER7",
+			"aboutWork": "Ensured all floor operations are running smoothly throughout the day
+			 ● Assisted team members with cashier functions, such as overrides, and retrieves alternate merchandise at the point of sale ●Coordinated with the Retail Manager to optimize product placement and update seasonal displays
+			 ● Recruited and trained new staff members to adhere to the company's mission and vision
+			  ● Maintained appropriate store inventory levels to ensure merchandise is consistently available ",
+			"fromDate": "January 2016",
+			"toDate": "June 2017"
+		},
+		{
+			"position": "Data Collector",
+			"organization": "CHAZ/ZPCT BRIDGES",
+			"aboutWork": "Followed up Defaulting Clients
+			 ● Collected data on clients for update on database
+			  ● Referred Clients to centres for activation ",
+			"fromDate": "September 2017",
+			"toDate": "December 2017"
+		},
+		{
+				"position": "Fullstack Developer Intern",
+				"organization": "Hackers Guild",
+				"aboutWork": "Designing and Development of Web and Mobile Applications",
+				"fromDate": "Januaey 2018",
+				"toDate": "December 2019"
+		},
+				
+	],
+	"education": [{
+			"university": "OPENCLASSROOMS",
+			"degree": "Bachelor in Frontend Development",
+			"gpa": "3.7",
+			"fromDate": "January 2020",
+			"toDate": "Present"
+		},
+		{
+			"university": "Hackers Guild",
+			"degree": "Certificate in Full stack Development",
+			"gpa": "4.0",
+			"fromDate": "Januaryt 2018",
+			"toDate": "June 2018"
+				}
+	],
+	"skills": [{
+			"name": "HTML5"
+		},
+		{
+			"name": "CSS3"
+		},
+		{
+			"name": "Javascript"
+		},
+		{
+			"name": "React"
+		},
+		{
+			"name": "Nodejs"
+		},
+		{
+			"name": "Python"
+		},
+		{
+			"name": "MongoDB"
+		},
+		{
+			"name": "Meteor"
+		}
+	],
+	"interests": {
+		"paragraphOne": "Apart from being a  developer, I enjoy most of my time being outdoors. I love Camping and Hiking with fellow Scouts."
+		"paragraphTwo": "When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, and I spend a large amount of my free time exploring the latest technology advancements in the full stack  development world."
+	},
+	"awards": [{
+			"awardDetail": "Facebook Developers Circles Scholarship'20 under Europes premium learning platform: OPENCLASSROOMS."
+		},
+		{
+			"awardDetail": "Best Bootcamp Student: Hackers Guild '18"
+		}
+	]
+}
