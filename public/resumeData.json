@@ -16,7 +16,7 @@
 
 		"email": "damianochintala@gmail.com",
 
-		"page-tophone": "+26 0962 812927",
+		"phone": "+26 0962 812927",
 
 		"address": {
 
@@ -30,21 +30,11 @@
 
 		},
 
-		"website": "http://www.damianochintala.com",
+		"website": "http://www.damianochintala.me",
 
 		"resumedownload": "http://damianochintala.com",
 
 		"social": [
-
-			{
-
-				"name": "facebook",
-
-				"url": "http://facebook.com/allancoo",
-
-				"className": "fa fa-facebook"
-
-			},
 
 			{
 
@@ -284,7 +274,7 @@
 
 				"image": "resume-website.jpg",
 
-				"url": "http://www.timbakerdev.com"
+				"url": "http://www.damianochintala.me"
 
 			},
 
