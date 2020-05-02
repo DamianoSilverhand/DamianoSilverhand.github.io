@@ -1,0 +1,166 @@
+{
+  "main": {
+    "name":"Damiano Chintala",
+    "occupation":"Full Stack Developer",
+    "description":"An experienced and passionate Coder who also happens to be great team player",
+    "image":"dman.png",
+    "bio":"I am a Full stack developer who builds applications using JavaScript frameworks and libraries for both  server side scripting and frontend. I use Meteor and Express (NodeJS) framework for the server side development and React/React-native for the frontend development. I have also worked with GraphQL. I am an active member of Facebook Developers Circle Lusaka and Forloop Zambia.",
+    "contactmessage":"If you are seeking to hire a Develope ,you  want someone to collaborate with or for any freelance work, mobile or web applications development,do not hesistate to contact on the given details.",
+    "email": "damianochintala@gmail.com",
+    "phone": "+26 0962 812927",
+    "address":{
+      "street":"Airport road",
+      "city":"Lusaka",
+      "state":"Lusaka",
+      "zip": "10101"
+    },
+    "website": "http://www.damianochintala.com",
+    "resumedownload":"http://damianochintala.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/allancoo",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com/ES6Maestro",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/damiano-chintala/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/damianochintala",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/DamianoSilverhand",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"With Experience in Agile Project management, UI/UX Design and responsive design amongst others",
+    "education":[
+      {
+        "school":"Openclassrooms Europe",
+        "degree":"Bachelor in Frontend Development",
+        "graduated":"April 2021",
+        "description":"With an average grade of 92% in coursework which includes Responsive Design, Heroku Deployment, Designing Relational Databases, Understanding The Web,  Programming with JavaScript , Building Web Apps with ReactJS and Full stack Development using NodeJS , ExpressJS and MongoDB ."
+      },
+      {
+        "school":"Hackers Guild",
+        "degree":"Full Stack Developer Certificate",
+        "graduated":"July 2018",
+        "description":"Intensive hands on training on Designing and Developing Web and Mobile apps Using Web languages, Libraries and Frameworks,and  using Git and Agile for Project management"
+      },
+      {
+        "school":"Masala High School",
+        "degree":"General Certificate in Education",
+        "graduated":"December 2008",
+        "description":"High School Certificate with Five Distinctions and Two Merits."
+            },
+    ],
+    "work":[
+      {
+        "company":"Hackers Guild",
+        "title":"Applications Developer Intern",
+        "years":"January 2018 - November 2019",
+        "description":"UI/UX Prototyping and Design using AdobeXD and Marvell, Frontend Website Development using ReactJS, Backend Development using MeteorJS, NodeJS and MongoDB Mobile. Applications Development using React Native ."
+      },
+      {
+        "company":"Puma Super7",
+        "title":"Retail Supervisor",
+        "years":"Jan 2016 - June 2017",
+        "description":" Prepared and Submitted Tax and Pension fund returns. Assisted team members with cashier functions, such as overrides, and retrieves alternate merchandise at the point of sale. Coordinated with the Retail Manager to optimize product placement and update seasonal displays. Recruited and trained new staff members to adhere to the company's mission and vision. Maintained appropriate store inventory levels to ensure merchandise is consistently available. "
+      },
+      {
+        "company":"Puma Super7",
+        "title":"Data Clerk / Back Office Assistant",
+        "years":"June 2015 - June 2015",
+        "description":"Collected, recorded, and processed customer orders received from sales department. Analyzed customer orders to identify errors and omissions, taking appropriate action to verify and retrieve critical account data. Generated weekly customized sales reports to detail sales team performance . "
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"75%"
+      },
+      {
+        "name":"Marvel",
+        "level":"65%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"80%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"85%"
+      },
+      {
+        "name":"NodeJs",
+        "level":"55%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"PetBay",
+        "category":"Pet shop plus Pet adoption site",
+        "image":"petbay.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Chalets and Caviar",
+        "category":"Real Estate Agency",
+        "image":"chalets.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Posterity Zambia",
+        "category":"Organization Website",
+        "image":"posterity.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Dasasi Note Taker",
+        "category":"A Note taking application utilizing local storage",
+        "image":"dasasi.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
