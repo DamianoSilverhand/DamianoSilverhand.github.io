@@ -229,6 +229,28 @@
 	"portfolio": {
 
 		"projects": [
+			{
+
+                                "title": "Posterity Zambia",
+
+                                "category": "Organization Website",
+
+                                "image": "posterity.jpg",
+
+                                "url": "https://posterityzi.github.io/"
+
+                        },
+{
+
+                                "title": "Dasasi Note Taker",
+
+                                "category": "A Note taking application utilizing local storage",
+
+                                "image": "dasasi.jpg",
+
+                                "url": "https://damianosilverhand.github.io/DaSaSi-Notetaker/index.html"
+
+                        },
 
 			{
 
@@ -244,25 +266,13 @@
 
 			{
 
-				"title": "Chalets and Caviar",
+				"title": "E-Space",
 
-				"category": "Real Estate Agency",
+				"category": "Online Learning Platform",
 
-				"image": "chalets.jpg",
+				"image": "espace.jpg",
 
-				"url": "https://dev-chalets-caviar-estates.pantheonsite.io/"
-
-			},
-
-			{
-
-				"title": "Posterity Zambia",
-
-				"category": "Organization Website",
-
-				"image": "posterity.jpg",
-
-				"url": "https://github.com/DamianoSilverhand/dalc-learn/tree/master?files=1"
+				"url": "https://damianosilverhand.github.io/E-Space/lessons.html"
 
 			},
 
@@ -275,18 +285,6 @@
 				"image": "resume-website.jpg",
 
 				"url": "http://www.damianochintala.me"
-
-			},
-
-			{
-
-				"title": "Dasasi Note Taker",
-
-				"category": "A Note taking application utilizing local storage",
-
-				"image": "dasasi.jpg",
-
-				"url": "https://github.com/DamianoSilverhand/DaSaSi-Notetaker"
 
 			}
 
