@@ -176,9 +176,9 @@
 
 			{
 
-				"name": "Marvel",
+				"name": "UI/UX Design",
 
-				"level": "65%"
+				"level": "85%"
 
 			},
 
@@ -220,6 +220,10 @@
 
 				"level": "80%"
 
+			},
+			{
+				"name": "REST APIs",
+				"level": "75"
 			}
 
 		]
