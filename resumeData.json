@@ -189,6 +189,10 @@
 				"level": "85%"
 
 			},
+			{
+				"name": "WordPress",
+				"level": "70%"
+			},
 
 			{
 
@@ -239,12 +243,18 @@
 
                                 "category": "Organization Website",
 
-                                "image": "posterity.jpg",
+                                "image": "post.jpg",
 
-                                "url": "https://posterityzi.github.io/"
+                                "url": "https://posterity.live"
 
                         },
-{
+                        {
+                        	"title": "Caviar and Chalet",
+                        	"category": "WordPress Real Estate Site",
+                        	"image": "chalet.jpg",
+                        	"url": "https://dev-chalets-caviar-estates.pantheonsite.io/"
+                        },
+                        {
 
                                 "title": "Dasasi Note Taker",
 
@@ -274,7 +284,7 @@
 
 				"category": "Online Learning Platform",
 
-				"image": "espace.jpg",
+				"image": "space.jpg",
 
 				"url": "https://damianosilverhand.github.io/E-Space/lessons.html"
 
