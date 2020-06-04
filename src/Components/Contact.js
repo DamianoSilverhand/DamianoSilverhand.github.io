@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from 'axios';
 
-function Contact3(props){
+function Contact(){
 	
 	const [serverState, setServerState] = useState({
 	submitting: false,
@@ -26,7 +26,7 @@ function Contact3(props){
 	data: new FormData(form)
 	})
 	.then(r => {
-	handleServerResponse(true, "Thanks! Message successfully sent", form);
+	handleServerResponse(true, "Thanks! Message sent successfully", form);
 	})
 	.catch(r => {
 	handleServerResponse(false, r.response.data.error, form);
@@ -35,9 +35,11 @@ function Contact3(props){
 
 
 
-    return (
+ 
+
     
-     
+
+    return (
       <section id="contact">
 
          <div className="row section-head">
@@ -50,7 +52,7 @@ function Contact3(props){
 
             <div className="ten columns">
 
-                  <p className="lead">If you are seeking to hire a Developer ,want someone to collaborate with or for any freelance work, mobile or web applications development, contact me and will get back to you as soon as possible</p>
+                  <p className="lead">If you are seeking to hire a Developer ,want someone to collaborate with or for any freelance work, mobile or web applications development,do not hesistate to contact me</p>
 
             </div>
 
@@ -97,14 +99,28 @@ function Contact3(props){
 					</fieldset>
 				   </form>
 
-           <div id="message-warning"> Error</div>
+           <div id="message-warning"> Error boy</div>
 				   <div id="message-success">
                   <i className="fa fa-check"></i>Your message was sent, thank you!<br />
 				   </div>
            </div>
+
+
+            <aside className="four columns footer-widgets">
+               <div className="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p className="address">
+						   Damiano Chintala<br />
+						   Lusaka, Zambia<br />
+						   <span>+260962812927</span>
+					   </p>
+				   </div>
+            </aside>
       </div>
    </section>
     );
   }
 
-export default Contact3;
+
+export default Contact;
