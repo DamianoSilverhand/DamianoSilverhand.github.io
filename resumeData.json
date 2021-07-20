@@ -16,7 +16,7 @@
 
 		"email": "damianochintala@gmail.com",
 
-		"phone": "+26 0962 812927",
+		"phone": "+26 0770 553 227",
 
 		"address": {
 
@@ -120,12 +120,24 @@
 		],
 
 		"work": [
+						
+			{
+
+				"company": "ProLearn Technology",
+
+				"title": "Software Developer",
+
+				"years": "June 2020 - Present",
+
+				"description": "In charge of in house Software Development and Maintenance. Reviewing, modularising and updating old code bases to modern development standards, reducing operating costs and improving functionality. Leading version control efforts for the organisation, employing GitHub and other public and open source repositories. ."
+
+			},
 
 			{
 
 				"company": "Hackers Guild",
 
-				"title": "Applications Developer Intern",
+				"title": "Applications Developer",
 
 				"years": "January 2018 - November 2019",
 
@@ -240,7 +252,7 @@
 
                                 "image": "post.jpg",
 
-                                "url": "https://posterity.live"
+                                "url": "https://posterityz.github.io"
 
                         },
                         {
@@ -249,6 +261,7 @@
                         	"image": "chalet.jpg",
                         	"url": "https://dev-chalets-caviar-estates.pantheonsite.io/"
                         },
+
                         {
 
                                 "title": "Dasasi Note Taker",
@@ -285,17 +298,17 @@
 
 			},
 
-			{
+            {
 
-				"title": "Resume Website",
+                "title": "Arise Africa",
 
-				"category": "A React based resume website template",
+                "category": "African Youths In Action",
 
-				"image": "resume-website.jpg",
+                "image": "Arise.jpeg",
 
-				"url": "http://www.damianochintala.me"
+                "url": "https://damianosilverhand.github.io/Arise-Africa/index.html"
 
-			}
+            }
 
 		]
 
