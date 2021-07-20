@@ -120,12 +120,24 @@
 		],
 
 		"work": [
+						
+			{
+
+				"company": "ZamFind Technology",
+
+				"title": "Software Developer",
+
+				"years": "June 2020 - Present",
+
+				"description": "In charge of in house Software Development and Maintenance. Reviewing, modularising and updating old code bases to modern development standards, reducing operating costs and improving functionality. Leading version control efforts for the organisation, employing GitHub and other public and open source repositories. ."
+
+			},
 
 			{
 
 				"company": "Hackers Guild",
 
-				"title": "Applications Developer Intern",
+				"title": "Applications Developer",
 
 				"years": "January 2018 - November 2019",
 
