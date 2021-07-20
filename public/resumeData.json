@@ -16,7 +16,7 @@
 
 		"email": "damianochintala@gmail.com",
 
-		"phone": "+26 0962 812927",
+		"phone": "+26 0770 553 227",
 
 		"address": {
 
@@ -123,7 +123,7 @@
 						
 			{
 
-				"company": "ZamFind Technology",
+				"company": "ProLearn Technology",
 
 				"title": "Software Developer",
 
@@ -261,18 +261,7 @@
                         	"image": "chalet.jpg",
                         	"url": "https://dev-chalets-caviar-estates.pantheonsite.io/"
                         },
-			                        
-			{
 
-                                "title": "Arise Africa",
-
-                                "category": "African Youths In Action",
-
-                                "image": "Arise.jpeg",
-
-                                "url": "https://damianosilverhand.github.io/Arise-Africa/index.html"
-
-                        },
                         {
 
                                 "title": "Dasasi Note Taker",
@@ -309,17 +298,17 @@
 
 			},
 
-			{
+            {
 
-				"title": "Resume Website",
+                "title": "Arise Africa",
 
-				"category": "A React based resume website template",
+                "category": "African Youths In Action",
 
-				"image": "resume-website.jpg",
+                "image": "Arise.jpeg",
 
-				"url": "http://www.damianochintala.me"
+                "url": "https://damianosilverhand.github.io/Arise-Africa/index.html"
 
-			}
+            }
 
 		]
 
