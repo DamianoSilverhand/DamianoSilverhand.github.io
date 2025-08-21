@@ -1,333 +1,188 @@
 {
-
 	"main": {
-
 		"name": "Damiano Chintala",
-
-		"occupation": "Full Stack Developer",
-
-		"description": "An experienced and passionate Coder who also happens to be great team player",
-
+		"occupation": "Senior Full Stack Developer & Systems Integration Lead",
+		"description": "Senior Full Stack Developer with 6+ years of proven expertise in architecting and delivering scalable web and mobile applications across agriculture, fintech, and technology sectors",
 		"image": "dman.png",
-
-		"bio": "I am a Full stack developer who builds applications using JavaScript frameworks and libraries for both  server side scripting and frontend. I use Meteor and Express (NodeJS) framework for the server side development and React/React-native for the frontend development. I have also worked with GraphQL. I am an active member of Facebook Developers Circle Lusaka and Forloop Zambia.",
-
-		"contactmessage": "If you are seeking to hire a Developer ,want someone to collaborate with or for any freelance work, mobile or web applications development,do not hesistate to contact me on the given details.",
-
+		"bio": "I am a Senior Full Stack Developer with 6+ years of proven expertise in architecting and delivering scalable web and mobile applications across agriculture, fintech, and technology sectors. Specialized in systems integration, cloud infrastructure, and cross-platform development with a comprehensive tech stack including PHP, JavaScript, TypeScript, React.js, Python, Kotlin, and .NET. Successfully led 15+ complex integration projects, mentored development teams, and implemented DevOps practices that reduced deployment times by 25%.",
+		"contactmessage": "If you are seeking to hire a Senior Full Stack Developer, want someone to collaborate with or for any freelance work, mobile or web applications development, do not hesitate to contact me on the given details.",
 		"email": "damianochintala@gmail.com",
-
-		"phone": "+26 0770 553 227",
-
+		"phone": "+260 962 812 927",
+		"phone2": "+260 770 553 227",
 		"address": {
-
-
-			"city": "Lusaka"
-
+			"city": "Lusaka",
+			"country": "Zambia"
 		},
-
 		"website": "http://www.damianochintala.me",
-
 		"resumedownload": "https://github.com/DamianoSilverhand/DamianoSilverhand.github.io/raw/dev/public/resume.pdf",
-
 		"social": [
-
 			{
-
 				"name": "twitter",
-
 				"url": "http://twitter.com/ES6Maestro",
-
 				"className": "fa fa-twitter"
-
 			},
-
 			{
-
 				"name": "linkedin",
-
 				"url": "https://www.linkedin.com/in/damianochintala/",
-
 				"className": "fa fa-linkedin"
-
 			},
-
 			{
-
 				"name": "instagram",
-
 				"url": "http://instagram.com/chintaladamiano",
-
 				"className": "fa fa-instagram"
-
 			},
-
 			{
-
 				"name": "github",
-
 				"url": "http://github.com/DamianoSilverhand",
-
 				"className": "fa fa-github"
-
 			}
-
 		]
-
 	},
-
 	"resume": {
-
-		"skillmessage": "With Experience in Agile Project management, UI/UX Design and responsive design amongst others",
-
+		"skillmessage": "Comprehensive technical expertise across frontend, backend, mobile development, cloud infrastructure, and systems integration with proven track record of delivering scalable solutions",
 		"education": [
-
 			{
-
-				"school": "Openclassrooms Europe",
-
-				"degree": "Bachelor in Frontend Development",
-
-				"graduated": "April 2021",
-
-				"description": "With an average grade of 92% in coursework which includes Responsive Design, Heroku Deployment, Designing Relational Databases, Understanding The Web,  Programming with JavaScript , Building Web Apps with ReactJS and Full stack Development using NodeJS , ExpressJS and MongoDB ."
-
+				"school": "OpenClassrooms",
+				"degree": "Bachelor's in Frontend Development",
+				"graduated": "2020-2022",
+				"description": "Comprehensive training in modern frontend development technologies, responsive design, and user experience optimization"
 			},
-
 			{
-
-				"school": "Hackers Guild",
-
-				"degree": "Full Stack Developer Certificate",
-
-				"graduated": "July 2018",
-
-				"description": "Intensive hands on training on Designing and Developing Web and Mobile apps Using Web languages, Libraries and Frameworks,and  using Git and Agile for Project management"
-
+				"school": "Hackers Guild Training Institute",
+				"degree": "Full Stack Web Development Certification",
+				"graduated": "2018",
+				"description": "Intensive hands-on training on designing and developing web and mobile apps using modern technologies, libraries, and frameworks"
 			},
-
 			{
-
-				"school": "Masala High School",
-
-				"degree": "General Certificate in Education",
-
-				"graduated": "December 2008",
-
-				"description": "High School Certificate with Five Distinctions and Two Merits."
-
+				"school": "The Copperbelt University",
+				"degree": "BEng Chemical Engineering",
+				"graduated": "2010-2015",
+				"description": "Bachelor's degree in Chemical Engineering providing strong analytical and problem-solving foundation"
 			}
-
 		],
-
 		"work": [
-						
 			{
-
-				"company": "ProLearn Technology",
-
-				"title": "Software Developer",
-
-				"years": "June 2020 - Present",
-
-				"description": "In charge of in house Software Development and Maintenance. Reviewing, modularising and updating old code bases to modern development standards, reducing operating costs and improving functionality. Leading version control efforts for the organisation, employing GitHub and other public and open source repositories. ."
-
+				"company": "Good Nature Agro",
+				"title": "Senior Full Stack Developer & Systems Integration Lead",
+				"years": "October 2022 - Present",
+				"description": "Systems Integration Leadership: Architected and implemented 12+ critical system integrations including real-time ERP synchronization, enhancing financial reporting accuracy by 40%. API Development & Architecture: Designed and built 20+ RESTful APIs for loan management, inventory tracking, and farmer engagement systems. Cross-Platform Mobile Development: Developed and maintained a Kotlin-based Android application serving 15,000+ active farmers. Payment Gateway Integration: Implemented mobile money validation systems and automated payment processing, reducing manual errors by 60%. DevOps & Cloud Management: Managed AWS infrastructure (EC2, RDS, S3) and implemented CI/CD pipelines, reducing deployment times by 25%."
 			},
-
 			{
-
+				"company": "ZamFind Technology",
+				"title": "Lead Software Developer",
+				"years": "March 2020 - September 2022",
+				"description": "Full Stack Development Leadership: Led development of inventory and POS systems using PHP CodeIgniter, preventing inventory loss and improving product tracking accuracy by 35%. E-commerce & Web Development: Architected and delivered 10+ WordPress websites and e-commerce platforms. Team Management & Mentoring: Directed a team of 4 developers, implemented agile practices, and mentored junior developers, increasing team operational efficiency by 30%. DevOps & CI/CD Implementation: Maintained automated deployment pipelines using GitHub, Docker, and Google Cloud."
+			},
+			{
 				"company": "Hackers Guild",
-
-				"title": "Applications Developer",
-
-				"years": "January 2018 - November 2019",
-
-				"description": "UI/UX Prototyping and Design using AdobeXD and Marvell, Frontend Website Development using ReactJS, Backend Development using MeteorJS, NodeJS and MongoDB Mobile. Applications Development using React Native ."
-
-			},
-
-			{
-
-				"company": "Puma Super7",
-
-				"title": "Retail Supervisor",
-
-				"years": "Jan 2016 - June 2017",
-
-				"description": " Prepared and Submitted Tax and Pension fund returns. Assisted team members with cashier functions, such as overrides, and retrieves alternate merchandise at the point of sale. Coordinated with the Retail Manager to optimize product placement and update seasonal displays. Recruited and trained new staff members to adhere to the company's mission and vision. Maintained appropriate store inventory levels to ensure merchandise is consistently available. "
-
-			},
-
-			{
-
-				"company": "Puma Super7",
-
-				"title": "Data Clerk / Back Office Assistant",
-
-				"years": "June 2015 - June 2015",
-
-				"description": "Collected, recorded, and processed customer orders received from sales department. Analyzed customer orders to identify errors and omissions, taking appropriate action to verify and retrieve critical account data. Generated weekly customized sales reports to detail sales team performance . "
-
+				"title": "Full Stack Developer",
+				"years": "January 2018 - February 2020",
+				"description": "Frontend Development & UI/UX: Designed and prototyped user interfaces using Figma and Marvel. React.js & Backend Development: Built scalable frontend applications with React.js and developed robust backend services using Node.js, MeteorJS, MongoDB, and Firebase. Mobile App Development: Created intuitive React Native mobile applications focused on performance optimization. Developer Training & Mentorship: Trained 6+ junior developers in modern frontend and backend technologies."
 			}
-
 		],
-
 		"skills": [
-
 			{
-
-				"name": "Git",
-
-				"level": "75%"
-
-			},
-
-			{
-
-				"name": "UI/UX Design",
-
-				"level": "85%"
-
-			},
-
-			{
-
-				"name": "ReactJs",
-
-				"level": "85%"
-
+				"name": "React.js",
+				"level": "95%"
 			},
 			{
-				"name": "WordPress",
-				"level": "70%"
-			},
-
-			{
-
-				"name": "CSS",
-
+				"name": "TypeScript",
 				"level": "90%"
-
 			},
-
 			{
-
-				"name": "HTML5",
-
+				"name": "PHP/Laravel",
+				"level": "90%"
+			},
+			{
+				"name": "Python/Django",
 				"level": "85%"
-
 			},
-
 			{
-
-				"name": "NodeJs",
-
-				"level": "55%"
-
+				"name": "Node.js",
+				"level": "85%"
 			},
-
 			{
-
-				"name": "MongoDB",
-
+				"name": "Kotlin (Android)",
 				"level": "80%"
-
 			},
 			{
-				"name": "REST APIs",
+				"name": "React Native",
+				"level": "85%"
+			},
+			{
+				"name": "Flutter",
 				"level": "75%"
+			},
+			{
+				"name": "PostgreSQL/MySQL",
+				"level": "85%"
+			},
+			{
+				"name": "MongoDB",
+				"level": "80%"
+			},
+			{
+				"name": "AWS Cloud",
+				"level": "80%"
+			},
+			{
+				"name": "Docker/Kubernetes",
+				"level": "75%"
+			},
+			{
+				"name": "Git/CI-CD",
+				"level": "90%"
+			},
+			{
+				"name": "RESTful APIs",
+				"level": "90%"
+			},
+			{
+				"name": "GraphQL",
+				"level": "75%"
+			},
+			{
+				"name": "Payment Gateways",
+				"level": "85%"
+			},
+			{
+				"name": "ERP Integration",
+				"level": "80%"
+			},
+			{
+				"name": "UI/UX Design",
+				"level": "80%"
 			}
-
-		]
-
-	},
-
-	"portfolio": {
-
-		"projects": [
+		],
+		"certifications": [
 			{
-
-                                "title": "Posterity Zambia",
-
-                                "category": "Organization Website",
-
-                                "image": "post.jpg",
-
-                                "url": "https://posterityz.github.io"
-
-                        },
-                        {
-                        	"title": "Caviar and Chalet",
-                        	"category": "WordPress Real Estate Site",
-                        	"image": "chalet.jpg",
-                        	"url": "https://dev-chalets-caviar-estates.pantheonsite.io/"
-                        },
-
-                        {
-
-                                "title": "Dasasi Note Taker",
-
-                                "category": "A Note taking application utilizing local storage",
-
-                                "image": "dasasi.jpg",
-
-                                "url": "https://damianosilverhand.github.io/DaSaSi-Notetaker/index.html"
-
-                        },
-
-			{
-
-				"title": "PetBay",
-
-				"category": "Pet shop plus Pet adoption site",
-
-				"image": "petbay.jpg",
-
-				"url": "https://github.com/DamianoSilverhand/petbay"
-
+				"name": "Linux Foundation Certified IT Associate",
+				"category": "Cloud Computing & DevOps"
 			},
-
 			{
-
-				"title": "E-Space",
-
-				"category": "Online Learning Platform",
-
-				"image": "space.jpg",
-
-				"url": "https://damianosilverhand.github.io/E-Space/lessons.html"
-
+				"name": "Agile Project Management & Scrum",
+				"category": "Team Leadership & Collaboration"
 			},
-
-            {
-
-                "title": "Arise Africa",
-
-                "category": "African Youths In Action",
-
-                "image": "Arise.jpeg",
-
-                "url": "https://damianosilverhand.github.io/Arise-Africa/index.html"
-
-            }
-
+			{
+				"name": "ICSS Certified Network Security Specialist",
+				"category": "Cybersecurity & Infrastructure"
+			},
+			{
+				"name": "Full-Stack with Node.js, Express, and MongoDB",
+				"category": "Backend Development"
+			},
+			{
+				"name": "Relational Database Logic Model Design",
+				"category": "Database Architecture"
+			}
 		]
-
 	},
-
 	"testimonials": {
-
 		"testimonials": [
-
 			{
-
-				"text": "Damiano Chintala  must be one of the most brilliant developers I've ever met! Hey you, you should hire this guy,I am confident that he will be one of your best developers given the chance!",
-
+				"text": "Damiano Chintala must be one of the most brilliant developers I've ever met! Hey you, you should hire this guy, I am confident that he will be one of your best developers given the chance!",
 				"user": "Kudzai Likelenge... Computer Scientist and Web Developer"
-
 			}
-
 		]
-
 	}
-
 }
