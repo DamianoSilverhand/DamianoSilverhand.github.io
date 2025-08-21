@@ -1,126 +1,65 @@
-import React, { useState } from "react";
-import axios from 'axios';
+import React, { Component } from 'react';
 
-function Contact(){
-	
-	const [serverState, setServerState] = useState({
-	submitting: false,
-	status: null
-	});
-	const handleServerResponse = (ok, msg, form) => {
-	setServerState({
-	submitting: false,
-	status: { ok, msg }
-	});
-	if (ok) {
-	form.reset();
-	}
-	};
-	const handleOnSubmit = e => {
-	e.preventDefault();
-	const form = e.target;
-	setServerState({ submitting: true });
-	axios({
-	method: "post",
-	url: "https://formspree.io/moqkdley",
-	data: new FormData(form)
-	})
-	.then(r => {
-	handleServerResponse(true, "Thanks! Message sent successfully", form);
-	})
-	.catch(r => {
-	handleServerResponse(false, r.response.data.error, form);
-	});
-	};
+class Contact extends Component {
+  render() {
 
-
-
- 
-
-    
+    if(this.props.data){
+      var email = this.props.data.email;
+      var phone = this.props.data.phone;
+      var phone2 = this.props.data.phone2;
+      var city = this.props.data.address.city;
+      var message = this.props.data.contactmessage;
+    }
 
     return (
-      <section id="contact">
-
-         <div className="row section-head">
-
-            <div className="two columns header-col">
-
-               <h1><span>Get In Touch.</span></h1>
-
+      <section id="contact" className="contact-section">
+        <div className="container">
+          <div className="section-header">
+            <h2 style={{ color: '#667eea' }}>Get In Touch</h2>
+            <p>Ready to start a project or have a question? Let's talk!</p>
+          </div>
+          
+          <div className="contact-content" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <div className="contact-info">
+              <div className="contact-card">
+                <div className="contact-icon">
+                  <i className="fa fa-envelope"></i>
+                </div>
+                <div className="contact-details">
+                  <h3>Email</h3>
+                  <p>{email}</p>
+                  <a href={`mailto:${email}`} className="contact-link">Send Email</a>
+                </div>
+              </div>
+              
+              <div className="contact-card">
+                <div className="contact-icon">
+                  <i className="fa fa-phone"></i>
+                </div>
+                <div className="contact-details">
+                  <h3>Phone</h3>
+                  <p>{phone}</p>
+                  {phone2 && <p>{phone2}</p>}
+                  <a href={`tel:${phone}`} className="contact-link">Call Now</a>
+                </div>
+              </div>
+              
+              <div className="contact-card">
+                <div className="contact-icon">
+                  <i className="fa fa-map-marker"></i>
+                </div>
+                <div className="contact-details">
+                  <h3>Location</h3>
+                  <p>{city}</p>
+                  <span className="contact-link">Based in {city}</span>
+                </div>
+              </div>
             </div>
-
-            <div className="ten columns">
-
-                  <p className="lead">If you are seeking to hire a Developer ,want someone to collaborate with or for any freelance work, mobile or web applications development,do not hesistate to contact me</p>
-
-            </div>
-
-         </div>
-
-         <div className="row">
-            <div className="eight columns">
-
-               <form action=""  name="contactForm" onSubmit={handleOnSubmit} >
-               
-					<fieldset>
-
-                  <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text"  size="35" id="name" name="contactName" />
-                  </div>
-
-                  <div>
-						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="email" defaultValue="" size="35" id="email" name="contactEmail" />
-                  </div>
-
-                  <div>
-						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text"  size="35" id="subject" name="contactSubject" />
-                  </div>
-
-                  <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="message" name="contactMessage" ></textarea>
-                  </div>
-
-                  <div>
-                     <button type="submit" disabled={serverState.submitting}>Submit</button>
-                     {serverState.status && (
-                     <p className={!serverState.status.ok ? "errorMsg" : ""}>
-                     {serverState.status.msg}
-                     </p>
-                     )}
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif" />
-                     </span>
-                  </div>
-					</fieldset>
-				   </form>
-
-           <div id="message-warning"> Error</div>
-				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-				   </div>
-           </div>
-
-
-            <aside className="four columns footer-widgets">
-               <div className="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
-					   <p className="address">
-						   Damiano Chintala<br />
-						   Lusaka, Zambia<br />
-						   <span>+260962812927</span>
-					   </p>
-				   </div>
-            </aside>
-      </div>
-   </section>
+          </div>
+        </div>
+      </section>
     );
   }
-
+}
 
 export default Contact;
