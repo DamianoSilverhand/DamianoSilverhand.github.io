@@ -60,7 +60,7 @@ class Header extends Component {
             </div>
             
             <div className="hero-image fade-in-up">
-              <img src={`images/${this.props.data?.image || 'dman.png'}`} alt={`${name} Profile`} />
+              <img src={`images/${this.props.data?.image || 'dman.jpeg'}`} alt={`${name} Profile`} />
             </div>
           </div>
           
