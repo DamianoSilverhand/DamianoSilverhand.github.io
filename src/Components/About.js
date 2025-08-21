@@ -7,47 +7,80 @@ class About extends Component {
       var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
       var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
     }
 
     return (
-      <section id="about">
-      <div className="row">
-         <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Damiano Chintala Profile Pic" />
-         </div>
-         <div className="nine columns main-col">
+      <section id="about" className="about-section">
+        <div className="container">
+          <div className="section-header">
             <h2>About Me</h2>
-
-            <p>{bio}</p>
-            <div className="row">
-               <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
-					   </p>
-               </div>
-               <div className="columns download">
-                  <p>
-                     <a href={resumeDownload} className="button" download="Damiano Chintala"><i className="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
+            <p>Get to know me better and understand what drives me as a developer</p>
+          </div>
+          
+          <div className="about-content">
+            <div className="about-image">
+              <div className="image-container">
+                <img src={profilepic} alt={`${name} Profile`} />
+                <div className="image-overlay"></div>
+              </div>
             </div>
-         </div>
-      </div>
-
-   </section>
+            
+            <div className="about-text">
+              <div className="about-bio">
+                <h3>Who I Am</h3>
+                <p>{bio}</p>
+              </div>
+              
+              <div className="about-details">
+                <div className="detail-item">
+                  <div className="detail-icon">
+                    <i className="fa fa-map-marker"></i>
+                  </div>
+                  <div className="detail-content">
+                    <h4>Location</h4>
+                    <p>{city}</p>
+                  </div>
+                </div>
+                
+                <div className="detail-item">
+                  <div className="detail-icon">
+                    <i className="fa fa-phone"></i>
+                  </div>
+                  <div className="detail-content">
+                    <h4>Phone</h4>
+                    <p>{phone}</p>
+                  </div>
+                </div>
+                
+                <div className="detail-item">
+                  <div className="detail-icon">
+                    <i className="fa fa-envelope"></i>
+                  </div>
+                  <div className="detail-content">
+                    <h4>Email</h4>
+                    <p>{email}</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="about-actions">
+                <a href={resumeDownload} className="button primary-button" download="Damiano Chintala Resume">
+                  <i className="fa fa-download"></i>
+                  Download Resume
+                </a>
+                <a href="#contact" className="button secondary-button">
+                  <i className="fa fa-envelope"></i>
+                  Get In Touch
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     );
   }
 }
