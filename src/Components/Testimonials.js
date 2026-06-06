@@ -34,8 +34,8 @@ class Testimonials extends Component {
       <section id="testimonials" className="testimonials-section">
         <div className="container">
           <div className="section-header">
-            <h2 className='testimonial-heading'>What People Say</h2>
-            <p className='testimonial-description' style={{color: '#f4eeee'}}>Hear from colleagues and clients about their experience working with me</p>
+            <h2>What People Say</h2>
+            <p>Hear from colleagues and clients about their experience working with me</p>
           </div>
           
           <div className="testimonials-grid">

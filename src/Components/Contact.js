@@ -15,11 +15,11 @@ class Contact extends Component {
       <section id="contact" className="contact-section">
         <div className="container">
           <div className="section-header">
-            <h2 style={{ color: '#667eea' }}>Get In Touch</h2>
+            <h2>Get In Touch</h2>
             <p>Ready to start a project or have a question? Let's talk!</p>
           </div>
           
-          <div className="contact-content" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <div className="contact-content">
             <div className="contact-info">
               <div className="contact-card">
                 <div className="contact-icon">
