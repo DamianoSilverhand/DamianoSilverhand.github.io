@@ -2,51 +2,41 @@ import React, { Component } from 'react';
 
 class Testimonials extends Component {
   render() {
+    if (!this.props.data) return null;
 
-    if(this.props.data){
-      var testimonials = this.props.data.testimonials.map(function(testimonials){
-        return (
-          <div key={testimonials.user} className="testimonial-item">
-            <div className="testimonial-content">
-              <div className="quote-icon">
-                <i className="fa fa-quote-left"></i>
-              </div>
-              <p className="testimonial-text">{testimonials.text}</p>
-              <div className="testimonial-author">
-                <div className="author-info">
-                  <h4>{testimonials.user}</h4>
-                  <div className="rating">
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
+    const items = this.props.data.testimonials.map(item => {
+      const initials = item.user
+        .split(' ')
+        .slice(0, 2)
+        .map(word => word[0])
+        .join('')
+        .toUpperCase();
+
+      return (
+        <div key={item.user} className="testimonial-card">
+          <div className="testimonial-quote">&ldquo;</div>
+          <p className="testimonial-text">{item.text}</p>
+          <div className="testimonial-author">
+            <div className="author-avatar">{initials}</div>
+            <div className="author-name">{item.user}</div>
           </div>
-        )
-      })
-    }
+        </div>
+      );
+    });
 
     return (
       <section id="testimonials" className="testimonials-section">
         <div className="container">
-          <div className="section-header">
-            <h2>What People Say</h2>
+          <div className="section-header section-header--center">
+            <span className="section-label">Testimonials</span>
+            <h2>What people say</h2>
             <p>Hear from colleagues and clients about their experience working with me</p>
           </div>
-          
-          <div className="testimonials-grid">
-            {testimonials}
-          </div>
-          
+
+          {items}
+
           <div className="testimonials-cta">
-            <p>Ready to work together?</p>
-            <a href="#contact" className="button primary-button">
-              Let's Start a Project
-            </a>
+            <a href="#contact" className="btn btn-primary smoothscroll">Start a project</a>
           </div>
         </div>
       </section>

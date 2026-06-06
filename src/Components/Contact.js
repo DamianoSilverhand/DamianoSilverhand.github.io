@@ -2,56 +2,63 @@ import React, { Component } from 'react';
 
 class Contact extends Component {
   render() {
+    if (!this.props.data) return null;
 
-    if(this.props.data){
-      var email = this.props.data.email;
-      var phone = this.props.data.phone;
-      var phone2 = this.props.data.phone2;
-      var city = this.props.data.address.city;
-      var message = this.props.data.contactmessage;
-    }
+    const { email, phone, phone2, address, contactmessage } = this.props.data;
+    const city = address.city;
 
     return (
       <section id="contact" className="contact-section">
         <div className="container">
-          <div className="section-header">
-            <h2>Get In Touch</h2>
-            <p>Ready to start a project or have a question? Let's talk!</p>
-          </div>
-          
-          <div className="contact-content">
-            <div className="contact-info">
+          <div className="contact-grid">
+            <div className="contact-intro">
+              <span className="section-label">Contact</span>
+              <h2>Let&apos;s build something together</h2>
+              <p>{contactmessage}</p>
+              <a href={`mailto:${email}`} className="contact-email-cta">
+                <i className="fa fa-envelope"></i>
+                {email}
+              </a>
+            </div>
+
+            <div className="contact-cards">
               <div className="contact-card">
-                <div className="contact-icon">
-                  <i className="fa fa-envelope"></i>
-                </div>
-                <div className="contact-details">
-                  <h3>Email</h3>
-                  <p>{email}</p>
-                  <a href={`mailto:${email}`} className="contact-link">Send Email</a>
+                <div className="contact-card-icon"><i className="fa fa-phone"></i></div>
+                <div>
+                  <div className="contact-card-label">Phone</div>
+                  <div className="contact-card-value">
+                    <a href={`tel:${phone.replace(/\s/g, '')}`}>{phone}</a>
+                    {phone2 && (
+                      <>
+                        <br />
+                        <a href={`tel:${phone2.replace(/\s/g, '')}`}>{phone2}</a>
+                      </>
+                    )}
+                  </div>
                 </div>
               </div>
-              
+
               <div className="contact-card">
-                <div className="contact-icon">
-                  <i className="fa fa-phone"></i>
-                </div>
-                <div className="contact-details">
-                  <h3>Phone</h3>
-                  <p>{phone}</p>
-                  {phone2 && <p>{phone2}</p>}
-                  <a href={`tel:${phone}`} className="contact-link">Call Now</a>
+                <div className="contact-card-icon"><i className="fa fa-map-marker"></i></div>
+                <div>
+                  <div className="contact-card-label">Location</div>
+                  <div className="contact-card-value">{city}, {address.country}</div>
                 </div>
               </div>
-              
+
               <div className="contact-card">
-                <div className="contact-icon">
-                  <i className="fa fa-map-marker"></i>
-                </div>
-                <div className="contact-details">
-                  <h3>Location</h3>
-                  <p>{city}</p>
-                  <span className="contact-link">Based in {city}</span>
+                <div className="contact-card-icon"><i className="fa fa-linkedin"></i></div>
+                <div>
+                  <div className="contact-card-label">LinkedIn</div>
+                  <div className="contact-card-value">
+                    <a
+                      href="https://www.linkedin.com/in/damianochintala/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Connect on LinkedIn
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
